@@ -1,31 +1,27 @@
-
-
-nav{
-    top: 0;    
-    height: 100px;
-    background-color: red;
-}
-
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.date{
-    font: "RobotoCondensed-Regular";
-    color: white;
-}
-
 html{
     background-color: green;
 }
 body{    
-    background-color: blue;
-    margin-left: 2%;
-    margin-right: 2%;
+    background-color: blue;  
+    max-width: 1325px; 
+    margin: 0 auto; 
 }
+
+nav{
+    top: 0;    
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: inline-block;       
+}
+
 main{    
-    margin-top: 50px;
-    width: 20%
+    margin-top: 20px;
+    width: 20%;
+    background-color: aquamarine;
 }
+footer{
+    background-color: blueviolet;
+    height: 100px;
+}
+
