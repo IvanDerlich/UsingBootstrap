@@ -21,6 +21,7 @@ main{
     background-color: aquamarine;
 }
 footer{
+    border-top: 3px solid black;
     background-color: blueviolet;
     height: 100px;
 }
