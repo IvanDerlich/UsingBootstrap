@@ -22,7 +22,6 @@ The purpose of this project is to .
 
 Bootstrap
 
-
 ## Contributor
 
 [Ivan Derlich](https://github.com/IvanDerlich)
