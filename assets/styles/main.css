@@ -4,7 +4,7 @@ html{
 body{    
     background-color: blue;  
     max-width: 1325px; 
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
 }
 
 nav{
@@ -16,14 +16,24 @@ nav{
 }
 
 main{    
-    margin-top: 20px;
-    width: 20%;
+    margin: 20px 20px 20px 20px;    
     background-color: aquamarine;
 }
 
-footer{
-    border-top: 3px solid black;
-    background-color: blueviolet;
-    height: 100px;
+.main-column-1{
+    background-color: peru;
 }
-
+.main-column-2{
+    background-color: darksalmon;
+}
+.main-column-3{
+    background-color: darkslateblue;
+}
+[class^="main-column"]{
+    height: 200px;
+}
+.in-the-news-article{
+    border: 3 px solid black;
+    height: 150px;
+    background-color: yellow;
+}
