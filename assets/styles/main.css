@@ -19,21 +19,32 @@ main{
     margin: 20px 20px 20px 20px;    
     background-color: aquamarine;
 }
+[class^="main-column"]{
+    height: 200px;
+}
 
 .main-column-1{
     background-color: peru;
 }
 .main-column-2{
     background-color: darksalmon;
+    height: 1000px;
 }
 .main-column-3{
     background-color: darkslateblue;
 }
-[class^="main-column"]{
-    height: 200px;
-}
+
 .in-the-news-article{
     border: 3 px solid black;
     height: 150px;
     background-color: yellow;
+}
+.featured-slideshows{
+    height: 100px;
+}
+.last-section{
+    height: 150px;
+}
+.mini{
+    height:50px;
 }

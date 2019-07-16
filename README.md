@@ -1,8 +1,8 @@
 # Using Bootstrap
 
-## Brief introduction
+## Introduction
 
-The purpose of this project is to . 
+The purpose of this project is to learn how to use the bootstrap grid and other bootstrap elements by replicating a website.
 
 ## Directives
 
