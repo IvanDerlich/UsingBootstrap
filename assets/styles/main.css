@@ -20,7 +20,7 @@ main{
     background-color: aquamarine;
 }
 [class^="main-column"]{
-    height: 200px;
+    height: 1200px;
 }
 
 .main-column-1{
@@ -28,7 +28,7 @@ main{
 }
 .main-column-2{
     background-color: darksalmon;
-    height: 1000px;
+    height: 300px;
 }
 .main-column-3{
     background-color: darkslateblue;
@@ -48,3 +48,73 @@ main{
 .mini{
     height:50px;
 }
+
+.subscribe2>.text-and-more{
+    height: 300px;
+    width: 100%
+}
+.newsletter>.text-and-more{
+    height: 300px;
+    width: 100%
+}
+#minilogo{
+    width: 147px;
+    height: 38px;
+}
+
+.newsletter-picture{
+    background: url("../imgs/newsletter.png");          
+    
+}   
+
+@media(max-width: 768px){
+    .newsletter-picture{    
+        height: 160px; 
+        width: 100%;    
+        background-size: 100%;
+        background-size: 100% 400%; 
+        background-position: center;    
+    }    
+}
+
+@media(min-width: 768px){
+    .newsletter-picture{
+        height: 181px;
+        width: 191px; 
+        background-repeat: no-repeat;        
+    }
+}
+
+@media(min-width:992px){
+    .newsletter-picture{
+        width:50%;
+        height: 301px;
+        background-size: 100%
+    }
+}
+
+.momentum-awards{    
+    /* background: url("../imgs/momentum-awards.png");    
+    
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
+.section-title{
+    text-transform: uppercase;
+    color: rgba(3, 3, 3, 0.4);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.title1{
+    text-transform: capitalize;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+

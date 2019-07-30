@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/common.css">
     <link rel="icon" type="image/png" href="assets/imgs/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
     <!-- merge all these stlylesheets into one block -->
 </head>
 
@@ -76,10 +77,31 @@
     </nav>
 
     <main>
-        <div class="row">
-            <div class="main-column-1 col-lg-3 col-md-5 sticky-top"></div>
-            <div class="main-column-2 col-lg-6 col-md-7 sticky-top"></div>
-            <div class="main-column-3 col-lg-3 col-md-12 sticky-top" ></div>
+        <div class="row d-flex">
+            <div class="main-column-1 col-lg-3 col-md-5 sticky-top order-sm-1 order-md-0 order-lg-0">
+                <span class="section-title featured-stories">featured Histories</span>
+                <div class="left-column-article ">                            
+                    <!-- Ver si las clases de imagenes de repite-->            
+                    <img src="assets/imgs/momentum-awards.png" class="col-12 mb-3"></img>
+                    <h1 class="title1">The Newsweek Momentum awards</h1>
+                    <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+                </div>
+            </div>
+            <div class="main-column-2 col-lg-6 col-md-7 sticky-top order-sm-0">
+                <div>
+                    <span class="section-title">top Story</span>
+                </div>
+                <div>
+                    <span class="section-title">culture & Travel</span>
+                </div>
+                <div>
+                    <span class="section-title">more stories</span>
+                </div>
+            </div>
+            <div class="main-column-3 col-lg-3 col-md-12 sticky-top order-sm-2" >                
+                <span class="section-title">opinion</span>
+                <span class="section-title">latests news</span>
+            </div>
         </div>
         <div>
             <p class="text-center">In the magazine</p>
@@ -197,17 +219,33 @@
                 </div>
             </div>
         </div>
-        
+
+        <div class="row">            
+            <div class="subscribe2 col-lg-7 bg-success">
+                <p class="text-center">Subscribe</p>
+                <div class="row">                    
+                    <img class="subscribe-picture mx-auto d-block" src="assets/imgs/subscribe.png" alt="Newsletter" srcset="">
+                    <div class="text-and-more bg-primary col-lg-6 col-sm-12 col-md-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati error, eos architecto temporibus iste a mollitia earum consequatur quod quo alias quos ipsam, maiores dolorum voluptates distinctio labore, rem id!</div>
+                </div> 
+            </div>
+            <div class="newsletter col-lg-5 bg-deep-pink">
+                <p class="text-center">Newsletter</p>
+                <div class="row">                    
+                  <div class="newsletter-picture" ></div>
+                  <div class="text-and-more bg-primary col-lg-6 col-sm-12 col-md-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum expedita voluptatum hic accusantium perferendis recusandae odit quia, sequi modi similique.</div>
+                </div>                
+            </div>
+        </div>        
         
 
      <div class="footer">
             <div class="footer-container">
-                <div class="footer-header">
-                    <div class="credits" >
-                        <img src="assets/imgs/red logo.png" alt="Red Logo" srcset="">
-                        <span  >@2019 Newsweek</span>
+                <div class="footer-header d-flex flex-md-row flex-column justify-content-md-between align-items-md-baseline ">
+                    <div class="credits d-flex flex-column flex-md-row">
+                        <img class="align-self-start"  src="assets/imgs/red logo.png" alt="Red Logo" srcset="">
+                        <span class="align-self-md-end">@2019 Newsweek</span>
                     </div>
-                    <img class="social-network-logos" src="assets/imgs/social network logos.png" alt="Social Network Logos" srcset="">
+                    <img class="social-network-logos align-self-start" src="assets/imgs/social network logos.png" alt="Social Network Logos" srcset="">
                 </div>  
                 <div class="footer-lists row">
                     <div class="footer-list-1 col-md-8 col-sm"></div>
