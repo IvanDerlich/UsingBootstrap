@@ -19,19 +19,17 @@ main{
     margin: 20px 20px 20px 20px;    
     background-color: aquamarine;
 }
-[class^="main-column"]{
-    height: 1200px;
-}
 
 .main-column-1{
     background-color: peru;
 }
 .main-column-2{
     background-color: darksalmon;
-    height: 300px;
+    height: max-content;
 }
 .main-column-3{
     background-color: darkslateblue;
+    height: max-content;
 }
 
 .in-the-news-article{
@@ -93,14 +91,6 @@ main{
     }
 }
 
-.momentum-awards{    
-    /* background: url("../imgs/momentum-awards.png");    
-    
-    height: 65vh;
-    background-repeat: no-repeat;
-    background-size: 100%; */
-}
-
 .section-title{
     text-transform: uppercase;
     color: rgba(3, 3, 3, 0.4);
@@ -117,4 +107,22 @@ main{
     line-height: 24px;
     font-weight: 700;
 }
+
+.text{
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headshots{
+    width: 63px;
+    height: 63px;
+}
+
+.title2{
+    font-size: 16px;
+}
+.author{
+    color: rgb(85, 85, 85);
+}
+
 
