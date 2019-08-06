@@ -31,10 +31,12 @@ main{
     background-color: darkslateblue;
     height: max-content;
 }
+.latest-news-image{
+    height: min-content;
+}
 
 .in-the-news-article{
     border: 3 px solid black;
-    height: 150px;
     background-color: yellow;
 }
 .featured-slideshows{
@@ -119,10 +121,17 @@ main{
 }
 
 .title2{
-    font-size: 16px;
+    font-size: 16px;    
 }
+
 .author{
     color: rgb(85, 85, 85);
 }
 
+.uppercase{
+    text-transform: uppercase; 
+}
 
+.h-33{
+    height: 33.33%;
+}
