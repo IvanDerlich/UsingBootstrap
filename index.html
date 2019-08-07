@@ -8,18 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Newsweek Replica</title>
     <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/fonts.css">
     <link rel="stylesheet" href="assets/styles/nav.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/common.css">
     <link rel="icon" type="image/png" href="assets/imgs/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-    <!-- merge all these stlylesheets into one block -->
 </head>
 
 <body>    
-    <nav>           
+    <nav class="position-fixed z-index50">           
         <div class="heading">
             <div>
                 <img class="mini-logo" src="assets/imgs/minilogo.png" alt="mini-logo">
@@ -35,12 +32,11 @@
                 <img class="hamburguer" src="assets/imgs/hamburguer.png" alt="hamburguer menu">
             </div>
         </div> 
-        <div class="menu">
+        <div class="menu d-none d-lg-flex justify-content-between">
                 <ul class="nav nav-fill">
                     <li class="nav-item">
                         <a class="link" href="#">U.S.</a>
                     </li>
-                    <!-- <div class="nav-item"> | </div> -->
                     <li class="nav-item">
                         <a class="link" href="#">World</a>
                     </li>
@@ -77,7 +73,7 @@
               
     </nav>
 
-    <main>
+    <main class="offset1">
         <div class="row d-flex">
             <div class="sm-sticky-top-remove main-column-1 sticky-top col-lg-3 col-md-5 col-sm-12 order-sm-1 order-lg-0 order-xl-0">
                 <span class="section-title featured-stories">featured Histories</span>
@@ -149,42 +145,42 @@
                     <article class="opinion d-flex mb-4 pb-2 pt-2 border-bottom border-dark">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/david-zweig.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">There's Only One Way the Crisis Here in Hong Kong Can Be Resolved </h1>
+                            <h2 class="title1 title2">There's Only One Way the Crisis Here in Hong Kong Can Be Resolved </h2>
                             <div class="section-title author">By David Zweig</div>
                         </div>                        
                     </article>
                     <article class="opinion d-flex mb-4 pb-2 pt-2 border-bottom border-dark">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/richard-saenz.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">Bringing Back the Federal Death Penalty Will Hit LGBTQ and People of Color the Hardest </h1>
+                            <h2 class="title1 title2">Bringing Back the Federal Death Penalty Will Hit LGBTQ and People of Color the Hardest </h2>
                             <div class="section-title author">Richard Saenz</div>
                         </div>                        
                     </article>
                     <article class="opinion d-flex mb-4 pb-2 pt-2 border-bottom border-dark">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/newt-gingrich.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">Boris Johnson Is Already Helping Make Britain Great Again </h1>
+                            <h2 class="title1 title2">Boris Johnson Is Already Helping Make Britain Great Again </h2>
                             <div class="section-title author">By Newt Gingrich</div>
                         </div>                        
                     </article>
                     <article class="opinion d-flex mb-4 pb-2 pt-2 border-bottom border-dark">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/heather-thompson-day.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">To the Girl I Bullied in School</h1>
+                            <h2 class="title1 title2">To the Girl I Bullied in School</h2>
                             <div class="section-title author">By Heather Thompson Day</div>
                         </div>                        
                     </article>
                     <article class="opinion d-flex mb-4 pb-2 pt-2 border-bottom border-dark">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/lee-habeeb.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">Trump May Be Crude, but Baltimore Really Is Spiraling—That's Why I Left</h1>
+                            <h2 class="title1 title2">Trump May Be Crude, but Baltimore Really Is Spiraling—That's Why I Left</h2>
                             <div class="section-title author">By Lee Habeb</div>
                         </div>                        
                     </article>
                     <article class="d-flex">
                         <img class="headshots mr-3" src="assets/imgs/headshots-opinion/jeff-clements.png" alt="David-Zweig">
                         <div>
-                            <h1 class="title1 title2">rain Big Money Out of Politics. Overturn Citizens United. Pass the 28th </h1>
+                            <h2 class="title1 title2">rain Big Money Out of Politics. Overturn Citizens United. Pass the 28th </h2>
                             <div class="section-title author">By Jeff Clements</div>
                         </div>                        
                     </article>                    
@@ -193,19 +189,19 @@
                 <span class="section-title d-block mt-4">latests news</span>
                 <article class="row border-bottom pb-3 pt-3">
                     <img class="latest-news-image col-5" src="assets/imgs/congressman.png" alt="congressman">
-                    <h1 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h1>
+                    <h2 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h2>
                 </article>
                 <article class="row border-bottom pb-3 pt-3">
                     <img class="latest-news-image col-5" src="assets/imgs/hong-kong-protesters.png" alt="congressman">
-                    <h1 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h1>
+                    <h2 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h2>
                 </article>
                 <article class="row border-bottom pb-3 pt-3">
                     <img class="latest-news-image col-5" src="assets/imgs/fbi.png" alt="congressman">
-                    <h1 class="title1 title2 col-7">For First Time, FBI Finds Conspiracy-Driven Crimes Drive Domestic Terror</h1>
+                    <h2 class="title1 title2 col-7">For First Time, FBI Finds Conspiracy-Driven Crimes Drive Domestic Terror</h2>
                 </article>
                 <article class="row border-bottom pb-3 pt-3">
                     <img class="latest-news-image col-5" src="assets/imgs/fox-news.png" alt="congressman">
-                    <h1 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h1>
+                    <h2 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h2>
                 </article>                
             </div>
         </div>
@@ -218,44 +214,44 @@
                 <article class="col-3 col-md-3 col-sm-12 overflow-hidden p-lg-4 ">
                     <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">The inside story of Charlottesville</h1>
+                    <h2 class="title1">The inside story of Charlottesville</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                    <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/divided-city.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">A Deeper Divide in a Divided City</h1>
+                    <h2 class="title1">A Deeper Divide in a Divided City</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/re-make-money.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">How To (Re)Make Money</h1>
+                    <h2 class="title1">How To (Re)Make Money</h2>
                 </article> 
             </div>
             <div class="row">            
                 <article class="col-3 col-md-3 col-sm-12 overflow-hidden p-lg-4 ">
                     <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">The inside story of Charlottesville</h1>
+                    <h2 class="title1">The inside story of Charlottesville</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                    <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/divided-city.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">A Deeper Divide in a Divided City</h1>
+                    <h2 class="title1">A Deeper Divide in a Divided City</h2>
                 </article>
                 <article class="col-md-3 col-3 col-sm-12 overflow-hidden p-lg-4">
                     <img class="pic-height w-100" src="assets/imgs/re-make-money.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">How To (Re)Make Money</h1>
+                    <h2 class="title1">How To (Re)Make Money</h2>
                 </article> 
                 </div>
         </div>
@@ -269,34 +265,34 @@
                 <article class="col-4 col-md-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">The inside story of Charlottesville</h1>
+                    <h2 class="title1">The inside story of Charlottesville</h2>
                 </article>
                 <article class="col-md-4 col-4 col-sm-12  overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                    <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                 </article>
                 <article class="col-md-4 col-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/divided-city.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">A Deeper Divide in a Divided City</h1>
+                    <h2 class="title1">A Deeper Divide in a Divided City</h2>
                 </article>
             </div>  
             <div class="row">
                 <article class="col-4 col-md-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">The inside story of Charlottesville</h1>
+                    <h2 class="title1">The inside story of Charlottesville</h2>
                 </article>
                 <article class="col-md-4 col-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                    <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                 </article>
                 <article class="col-md-4 col-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/divided-city.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">A Deeper Divide in a Divided City</h1>
+                    <h2 class="title1">A Deeper Divide in a Divided City</h2>
                 </article>
             </div>   
         </div>
@@ -309,28 +305,28 @@
                 <article class="col-4 col-md-4 col-sm-12 overflow-hidden p-4">
                     <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">The inside story of Charlottesville</h1>
+                    <h2 class="title1">The inside story of Charlottesville</h2>
                 </article>
 
                 <article class="col-md-4 col-4 col-sm-12 overflow-hidden p-4">                    
                     <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                     <img src="assets/imgs/cover-us.png" alt="">
-                    <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                    <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                 </article>
 
                 <div class="col-md-4 col-sm-12 overflow-hidden p-4">
                     
                     <article class="h-33 row border-bottom pb-3 pt-3">
                         <img class="latest-news-image col-5" src="assets/imgs/congressman.png" alt="congressman">
-                        <h1 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h1>
+                        <h2 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h2>
                     </article>
                     <article class="h-33 row border-bottom pb-3 pt-3">
                         <img class="latest-news-image col-5" src="assets/imgs/hong-kong-protesters.png" alt="congressman">
-                        <h1 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h1>
+                        <h2 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h2>
                     </article>
                     <article class="h-33 row pb-3 pt-3">
                         <img class="latest-news-image col-5" src="assets/imgs/fox-news.png" alt="congressman">
-                        <h1 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h1>
+                        <h2 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h2>
                     </article> 
                 </div>                    
             </div> 
@@ -343,28 +339,28 @@
                     <article class="col-4 col-md-4 col-sm-12 overflow-hidden p-4">
                         <img class="pic-height w-100" src="assets/imgs/charlotsville.jpg" alt="">
                         <img src="assets/imgs/cover-us.png" alt="">
-                        <h1 class="title1">The inside story of Charlottesville</h1>
+                        <h2 class="title1">The inside story of Charlottesville</h2>
                     </article>
     
                     <article class="col-md-4 col-4 col-sm-12 overflow-hidden p-4">                    
                         <img class="pic-height w-100" src="assets/imgs/Terry-McAuliffe.png" alt="">
                         <img src="assets/imgs/cover-us.png" alt="">
-                        <h1 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h1>
+                        <h2 class="title1">Terry McAuliffe on Charlottesville, Racism and Donald Trump</h2>
                     </article>
     
                     <div class="col-md-4 col-sm-12 overflow-hidden p-4">
                         
                         <article class="h-33 row border-bottom pb-3 pt-3">
                             <img class="latest-news-image col-5" src="assets/imgs/congressman.png" alt="congressman">
-                            <h1 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h1>
+                            <h2 class="title1 title2 col-7">Congressman Elijah Cummings Home Burglarized Hours Before Trump's Tweets</h2>
                         </article>
                         <article class="h-33 row border-bottom pb-3 pt-3">
                             <img class="latest-news-image col-5" src="assets/imgs/hong-kong-protesters.png" alt="congressman">
-                            <h1 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h1>
+                            <h2 class="title1 title2 col-7">Hong Kong Protesters Use Lasers on Police, China Troops Show Off in Video</h2>
                         </article>
                         <article class="h-33 row pb-3 pt-3">
                             <img class="latest-news-image col-5" src="assets/imgs/fox-news.png" alt="congressman">
-                            <h1 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h1>
+                            <h2 class="title1 title2 col-7">Fox News Host Shepard Smith Delivers Emotional Statement on Gun Violence</h2>
                         </article> 
                     </div>                    
                 </div> 

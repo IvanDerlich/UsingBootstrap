@@ -24,18 +24,9 @@
     margin-bottom: 10px;
 }
 
-.menu{    
-    display: flex;
-    justify-content: space-between;
+.menu{
     background-color: white;  
     border-bottom: 2px solid grey;
-}
-
-@media (max-width: 992px) {
-    .menu{
-        display: none;
-    }
-
 }
 
 .link{

@@ -2,21 +2,11 @@
     border-top: 3px solid black;
 }
 
-.footer-container{
-  /* padding: 50px; */
-}
-
 .footer-header{
-    /* display: flex;
-    justify-content: space-between; */
-    /* align-items: flex-end; */
     border-bottom: 2px solid black;
-    /* padding: 10px; */
 }
 .credits{
     display: block;
-    /* display: flex; */
-    /* align-items: flex-end;     */
 }
 
 .footer-list-1{
