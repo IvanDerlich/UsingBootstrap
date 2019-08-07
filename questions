@@ -1,0 +1,15 @@
+-How do I change the letter width of the .link class: 
+The class selects the elements in heade menu. I tried to add these
+properties but didn't work.
+
+transform:scale(.5,1); /* W3C */
+-webkit-transform:scale(.5,1); /* Safari and Chrome */
+-moz-transform:scale(.5,1); /* Firefox */
+-ms-transform:scale.5,1); /* IE 9 */
+-o-transform:scale(2,3); /* Opera */
+
+-How do I make the menu items-size adjustable?
+
+-Why is the subscribe image at that position instead of being at the right touching the border?
+
+-How can I make the content sticky but le
