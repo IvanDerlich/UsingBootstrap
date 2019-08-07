@@ -1,6 +1,5 @@
 .footer{
     border-top: 3px solid black;
-    background-color: blueviolet;
 }
 
 .footer-container{
@@ -22,11 +21,9 @@
 
 .footer-list-1{
     width:100%;    
-    background-color: coral;
 }
 .footer-list-2{
     width:100%;    
-    background-color: lawngreen;
 }
 [class^="footer-list"]{
     height: 40px;

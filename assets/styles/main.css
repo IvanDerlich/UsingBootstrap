@@ -1,8 +1,6 @@
 html{
-    background-color: green;
 }
 body{    
-    background-color: blue;  
     max-width: 1325px; 
     /* margin: 0 auto;  */
 }
@@ -11,33 +9,23 @@ nav{
     top: 0;    
     height: 100px;
     width: 100%;
-    background-color: grey;
     display: inline-block;       
 }
 
 main{    
     margin: 20px 20px 20px 20px;    
-    background-color: aquamarine;
 }
 
 .main-column-1{
-    background-color: peru;
 }
 .main-column-2{
-    background-color: darksalmon;
     height: max-content;
 }
 .main-column-3{
-    background-color: darkslateblue;
     height: max-content;
 }
 .latest-news-image{
     height: min-content;
-}
-
-.in-the-news-article{
-    border: 3 px solid black;
-    background-color: yellow;
 }
 .featured-slideshows{
     height: 100px;
