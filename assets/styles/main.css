@@ -1,4 +1,3 @@
-
 body{    
     max-width: 1325px; 
 }
@@ -47,8 +46,7 @@ main{
 }
 
 .newsletter-picture{
-    background: url("../imgs/newsletter.png");          
-    
+    background: url("../imgs/newsletter.png");
 }   
 
 @media(max-width: 768px){
