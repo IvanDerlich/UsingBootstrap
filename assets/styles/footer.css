@@ -1,0 +1,20 @@
+.footer{
+    border-top: 3px solid black;
+}
+
+.footer-header{
+    border-bottom: 2px solid black;
+}
+.credits{
+    display: block;
+}
+
+.footer-list-1{
+    width:100%;    
+}
+.footer-list-2{
+    width:100%;    
+}
+[class^="footer-list"]{
+    height: 40px;
+}
